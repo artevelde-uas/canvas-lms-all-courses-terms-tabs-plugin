@@ -1,0 +1,116 @@
+{
+    "ar": {
+        "all_terms": "كل الفصول الدراسية"
+    },
+    "cy": {
+        "all_terms": "Pob Tymor"
+    },
+    "da": {
+        "all_terms": "Alle semestre"
+    },
+    "da-x-k12": {
+        "all_terms": "Alle skolexe5r"
+    },
+    "de": {
+        "all_terms": "Alle Semester"
+    },
+    "el": {
+        "all_terms": "Όλοι οι όροι"
+    },
+    "en-AU": {
+        "all_terms": "All Terms"
+    },
+    "en-CA": {
+        "all_terms": "All Terms"
+    },
+    "en-GB": {
+        "all_terms": "All terms"
+    },
+    "en-GB-x-lbs": {
+        "all_terms": "All terms"
+    },
+    "en-GB-x-ukhe": {
+        "all_terms": "All terms"
+    },
+    "es": {
+        "all_terms": "Todos los txe9rminos"
+    },
+    "fa": {
+        "all_terms": "همه نیمسال‌ها"
+    },
+    "fr": {
+        "all_terms": "Toutes les pxe9riodes"
+    },
+    "fr-CA": {
+        "all_terms": "Tous les trimestres"
+    },
+    "he": {
+        "all_terms": "כל התקופות/תנאים"
+    },
+    "ht": {
+        "all_terms": "Tout Txe8m"
+    },
+    "hu": {
+        "all_terms": "xd6sszes fxe9lxe9v"
+    },
+    "hy": {
+        "all_terms": "Բոլոր ժամանակահատվածները"
+    },
+    "is": {
+        "all_terms": "Allar annir"
+    },
+    "it": {
+        "all_terms": "Tutti i trimestri"
+    },
+    "ja": {
+        "all_terms": "すべての期間"
+    },
+    "mi": {
+        "all_terms": "Ngā ture katoa"
+    },
+    "nb": {
+        "all_terms": "Alle semestre"
+    },
+    "nb-x-k12": {
+        "all_terms": "Alle terminer"
+    },
+    "nl": {
+        "all_terms": "Alle periodes"
+    },
+    "nn": {
+        "all_terms": "Alle semester"
+    },
+    "pl": {
+        "all_terms": "Wszystkie terminy"
+    },
+    "pt": {
+        "all_terms": "Todos os perxedodos"
+    },
+    "pt-BR": {
+        "all_terms": "Todos os Perxedodos"
+    },
+    "ru": {
+        "all_terms": "Все условия"
+    },
+    "sl": {
+        "all_terms": "Vsi semestri"
+    },
+    "sv": {
+        "all_terms": "Alla terminer"
+    },
+    "sv-x-k12": {
+        "all_terms": "Alla terminer"
+    },
+    "tr": {
+        "all_terms": "Tüm Dönemler"
+    },
+    "uk": {
+        "all_terms": "Усі періоди"
+    },
+    "zh-Hans": {
+        "all_terms": "所有学期"
+    },
+    "zh-Hant": {
+        "all_terms": "所有學期"
+    }
+}

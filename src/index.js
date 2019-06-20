@@ -1,5 +1,11 @@
+import translations from './i18n.json';
+
 
 export default function (app) {
+    const __ = app.i18n.translate;
+    
+    app.i18n.setTranslations(translations);
+    
     app.addRouteListener('courses', function () {
         app.addReadyListener('#past_enrollments_table', function (el) {
             var rows = Array.from(el.querySelectorAll('tbody > tr'));
@@ -11,7 +17,7 @@ export default function (app) {
             tabs.innerHTML = `
                 <ul class="ui-tabs-nav ui-helper-reset ui-helper-clearfix ui-widget-header ui-corner-all" role="tablist">
                     <li class="ui-state-default ui-corner-top ui-tabs-active ui-state-active" role="tab">
-                        <a class="ui-tabs-anchor" role="presentation">All</a>
+                        <a class="ui-tabs-anchor" role="presentation">${__('all_terms')}</a>
                     </li>
                     ${terms.map(term => `
                         <li class="ui-state-default ui-corner-top" role="tab">
@@ -34,7 +40,7 @@ export default function (app) {
                     
                     if (cell === null) return;
                     
-                    if (cell.innerText.trim() === tab.innerText || tab.innerText === 'All') {
+                    if (cell.innerText.trim() === tab.innerText || tab.innerText === __('all_terms')) {
                         row.removeAttribute('hidden');
                     } else {
                         row.setAttribute('hidden', 'hidden');

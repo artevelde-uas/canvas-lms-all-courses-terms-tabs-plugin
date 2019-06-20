@@ -10,7 +10,8 @@
   "repository": "https://github.com/auc-ghent/canvas-lms-all-courses-terms-tabs-plugin",
   "module": "src/index.js",
   "files": [
-    "src/index.js"
+    "src/index.js",
+    "src/i18n.json"
   ],
   "peerDependencies": {
     "@ahsdile/canvas-lms-app": "^0.11.0"
