@@ -20,19 +20,7 @@
     "en": {
         "all_terms": "All Terms"
     },
-    "en-AU": {
-        "all_terms": "All Terms"
-    },
-    "en-CA": {
-        "all_terms": "All Terms"
-    },
     "en-GB": {
-        "all_terms": "All terms"
-    },
-    "en-GB-x-lbs": {
-        "all_terms": "All terms"
-    },
-    "en-GB-x-ukhe": {
         "all_terms": "All terms"
     },
     "es": {
@@ -89,9 +77,6 @@
     "pt": {
         "all_terms": "Todos os períodos"
     },
-    "pt-BR": {
-        "all_terms": "Todos os Períodos"
-    },
     "ru": {
         "all_terms": "Все условия"
     },
@@ -99,9 +84,6 @@
         "all_terms": "Vsi semestri"
     },
     "sv": {
-        "all_terms": "Alla terminer"
-    },
-    "sv-x-k12": {
         "all_terms": "Alla terminer"
     },
     "tr": {
