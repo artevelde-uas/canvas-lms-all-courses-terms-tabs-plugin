@@ -9,7 +9,7 @@
         "all_terms": "Alle semestre"
     },
     "da-x-k12": {
-        "all_terms": "Alle skolexe5r"
+        "all_terms": "Alle skoleår"
     },
     "de": {
         "all_terms": "Alle Semester"
@@ -33,13 +33,13 @@
         "all_terms": "All terms"
     },
     "es": {
-        "all_terms": "Todos los txe9rminos"
+        "all_terms": "Todos los términos"
     },
     "fa": {
         "all_terms": "همه نیمسال‌ها"
     },
     "fr": {
-        "all_terms": "Toutes les pxe9riodes"
+        "all_terms": "Toutes les périodes"
     },
     "fr-CA": {
         "all_terms": "Tous les trimestres"
@@ -48,10 +48,10 @@
         "all_terms": "כל התקופות/תנאים"
     },
     "ht": {
-        "all_terms": "Tout Txe8m"
+        "all_terms": "Tout Tèm"
     },
     "hu": {
-        "all_terms": "xd6sszes fxe9lxe9v"
+        "all_terms": "Összes félév"
     },
     "hy": {
         "all_terms": "Բոլոր ժամանակահատվածները"
@@ -84,10 +84,10 @@
         "all_terms": "Wszystkie terminy"
     },
     "pt": {
-        "all_terms": "Todos os perxedodos"
+        "all_terms": "Todos os períodos"
     },
     "pt-BR": {
-        "all_terms": "Todos os Perxedodos"
+        "all_terms": "Todos os Períodos"
     },
     "ru": {
         "all_terms": "Все условия"
