@@ -1,9 +1,8 @@
 import translations from './i18n.json';
 
 
-export default function (app) {
-    const __ = app.i18n.translate;
-    
+export default function ({ router, dom, i18n, i18n: { translate: __ } }) {
+
     function fixCourseTable(el) {
         let rows = Array.from(el.querySelectorAll('tbody > tr'));
         let cells = Array.from(el.querySelectorAll('td.course-list-term-column'));
@@ -23,20 +22,20 @@ export default function (app) {
                 `).join('')}
             </ul>
         `;
-        
+
         tabs.addEventListener('click', e => {
             let tab = e.target.closest('li');
 
             if (tab === null) return;
-            
+
             tabs.querySelector('.ui-tabs-active').classList.remove('ui-tabs-active', 'ui-state-active');
             tab.classList.add('ui-tabs-active', 'ui-state-active');
-            
+
             rows.forEach(row => {
                 let cell = row.querySelector('td.course-list-term-column');
 
                 if (cell === null) return;
-                
+
                 if (cell.innerText.trim() === tab.innerText || tab.innerText === __('all_terms')) {
                     row.removeAttribute('hidden');
                 } else {
@@ -44,13 +43,14 @@ export default function (app) {
                 }
             });
         });
-        
+
         el.parentNode.insertBefore(tabs, el);
     }
-    
-    app.i18n.setTranslations(translations);
-    app.addRouteListener('courses', function () {
-        app.addReadyListener('#my_courses_table', fixCourseTable);
-        app.addReadyListener('#past_enrollments_table', fixCourseTable);
+
+    i18n.setTranslations(translations);
+
+    router.onRoute('courses', () => {
+        dom.onElementAdded('#my_courses_table', fixCourseTable);
+        dom.onElementAdded('#past_enrollments_table', fixCourseTable);
     });
 }
