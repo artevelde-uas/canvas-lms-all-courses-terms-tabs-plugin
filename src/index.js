@@ -5,11 +5,11 @@ export default function (app) {
     const __ = app.i18n.translate;
     
     function fixCourseTable(el) {
-        var rows = Array.from(el.querySelectorAll('tbody > tr'));
-        var cells = Array.from(el.querySelectorAll('td.course-list-term-column'));
-        var terms = cells.map(el => el.innerText.trim()).filter((value, index, self) => (self.indexOf(value) === index));
-        var tabs = document.createElement('div');
-        
+        let rows = Array.from(el.querySelectorAll('tbody > tr'));
+        let cells = Array.from(el.querySelectorAll('td.course-list-term-column'));
+        let terms = cells.map(el => el.innerText.trim()).filter((value, index, self) => (self.indexOf(value) === index));
+        let tabs = document.createElement('div');
+
         tabs.classList.add('ui-tabs-minimal', 'ui-tabs', 'ui-widget', 'ui-widget-content', 'ui-corner-all');
         tabs.innerHTML = `
             <ul class="ui-tabs-nav ui-helper-reset ui-helper-clearfix ui-widget-header ui-corner-all" role="tablist">
@@ -25,16 +25,16 @@ export default function (app) {
         `;
         
         tabs.addEventListener('click', e => {
-            var tab = e.target.closest('li');
-            
+            let tab = e.target.closest('li');
+
             if (tab === null) return;
             
             tabs.querySelector('.ui-tabs-active').classList.remove('ui-tabs-active', 'ui-state-active');
             tab.classList.add('ui-tabs-active', 'ui-state-active');
             
             rows.forEach(row => {
-                var cell = row.querySelector('td.course-list-term-column');
-                
+                let cell = row.querySelector('td.course-list-term-column');
+
                 if (cell === null) return;
                 
                 if (cell.innerText.trim() === tab.innerText || tab.innerText === __('all_terms')) {
