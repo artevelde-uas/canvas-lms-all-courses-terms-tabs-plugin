@@ -3,6 +3,12 @@
 Plugin for the [Canvas LMS theme app](https://github.com/ahsdile/canvas-lms-app) that groups the
 courses on the 'All Courses' page in tabs per term.
 
+#### Before:
+![Before](docs/example-before.png)
+
+#### After:
+![After](docs/example-after.png)
+
 ## Installation
 
 Using NPM:
