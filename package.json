@@ -1,7 +1,7 @@
 {
   "name": "@artevelde-uas/canvas-lms-all-courses-terms-tabs-plugin",
-  "version": "0.2.0",
-  "description": "Plugin for the Canvas LMS theme app that groups the courses on the 'All Courses' page in tabs per term",
+  "version": "1.0.0",
+  "description": "Groups the courses on the 'All Courses' page in tabs per term",
   "keywords": [
     "Canvas LMS"
   ],
