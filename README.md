@@ -4,7 +4,7 @@ Plugin for the [Canvas LMS theme app](https://www.npmjs.com/package/@artevelde-u
 courses on the 'All Courses' page in tabs per term.
 
 [![NPM version](https://img.shields.io/npm/v/@artevelde-uas/canvas-lms-all-courses-terms-tabs-plugin.svg)](https://www.npmjs.com/package/@artevelde-uas/canvas-lms-all-courses-terms-tabs-plugin)
-[![License](https://img.shields.io/github/license/artevelde-uas/canvas-lms-all-courses-terms-tabs-plugin.svg)](https://spdx.org/licenses/MIT)
+[![License](https://img.shields.io/github/license/artevelde-uas/canvas-lms-all-courses-terms-tabs-plugin.svg)](https://spdx.org/licenses/ISC)
 [![Downloads](https://img.shields.io/npm/dt/@artevelde-uas/canvas-lms-all-courses-terms-tabs-plugin.svg)](https://www.npmjs.com/package/@artevelde-uas/canvas-lms-all-courses-terms-tabs-plugin)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/artevelde-uas/canvas-lms-all-courses-terms-tabs-plugin/pulls)
 
