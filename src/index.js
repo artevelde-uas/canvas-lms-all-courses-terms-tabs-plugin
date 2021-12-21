@@ -1,7 +1,8 @@
-import translations from './i18n.json';
+import { router, dom } from '@artevelde-uas/canvas-lms-app';
+import __ from './i18n';
 
 
-export default function ({ router, dom, i18n, i18n: { translate: __ } }) {
+export default function () {
 
     function fixCourseTable(el) {
         let rows = Array.from(el.querySelectorAll('tbody > tr'));
@@ -46,8 +47,6 @@ export default function ({ router, dom, i18n, i18n: { translate: __ } }) {
 
         el.parentNode.insertBefore(tabs, el);
     }
-
-    i18n.setTranslations(translations);
 
     router.onRoute('courses', () => {
         dom.onElementAdded('#my_courses_table', fixCourseTable);
