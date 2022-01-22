@@ -12,13 +12,21 @@
         "all_terms": "Alle skoleår"
     },
     "de": {
-        "all_terms": "Alle Semester"
+        "all_terms": "Alle Semester",
+        "package": {
+            "title": "Gruppiert die Kursliste pro Semester",
+            "description": "Gruppiert die Kurse auf der Seite 'Alle Kurse' in Tabs pro Semester."
+        }
     },
     "el": {
         "all_terms": "Όλοι οι όροι"
     },
     "en": {
-        "all_terms": "All Terms"
+        "all_terms": "All Terms",
+        "package": {
+            "title": "Groups course list per term",
+            "description": "Groups the courses on the 'All Courses' page in tabs per term."
+        }
     },
     "en-GB": {
         "all_terms": "All terms"
@@ -30,7 +38,11 @@
         "all_terms": "همه نیمسال‌ها"
     },
     "fr": {
-        "all_terms": "Toutes les périodes"
+        "all_terms": "Toutes les périodes",
+        "package": {
+            "title": "Regroupe la liste des cours par trimestre",
+            "description": "Regroupe les cours sur la page «Tous les cours» en onglets par trimestre."
+        }
     },
     "fr-CA": {
         "all_terms": "Tous les trimestres"
@@ -66,7 +78,11 @@
         "all_terms": "Alle terminer"
     },
     "nl": {
-        "all_terms": "Alle periodes"
+        "all_terms": "Alle periodes",
+        "package": {
+            "title": "Groepeert de cursuslijst per periode",
+            "description": "Groepeert de cursussen op de pagina 'Alle cursussen' in tabs per periode."
+        }
     },
     "nn": {
         "all_terms": "Alle semester"

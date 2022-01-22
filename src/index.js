@@ -52,4 +52,10 @@ export default function () {
         dom.onElementAdded('#my_courses_table', fixCourseTable);
         dom.onElementAdded('#past_enrollments_table', fixCourseTable);
     });
+
+    return {
+        ...require('../package.json'),
+        title: __('package.title'),
+        description: __('package.description')
+    };
 }
