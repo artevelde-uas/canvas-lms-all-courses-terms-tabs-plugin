@@ -1,5 +1,5 @@
 import { router, dom } from '@artevelde-uas/canvas-lms-app';
-import __ from './i18n';
+import t from './i18n';
 
 
 function fixCourseTable(el) {
@@ -12,7 +12,7 @@ function fixCourseTable(el) {
     tabs.innerHTML = `
         <ul class="ui-tabs-nav ui-helper-reset ui-helper-clearfix ui-widget-header ui-corner-all" role="tablist">
             <li class="ui-state-default ui-corner-top ui-tabs-active ui-state-active" role="tab">
-                <a class="ui-tabs-anchor" role="presentation">${__('all_terms')}</a>
+                <a class="ui-tabs-anchor" role="presentation">${t('all_terms')}</a>
             </li>
             ${terms.map(term => `
                 <li class="ui-state-default ui-corner-top" role="tab">
@@ -35,7 +35,7 @@ function fixCourseTable(el) {
 
             if (cell === null) return;
 
-            if (cell.innerText.trim() === tab.innerText || tab.innerText === __('all_terms')) {
+            if (cell.innerText.trim() === tab.innerText || tab.innerText === t('all_terms')) {
                 row.removeAttribute('hidden');
             } else {
                 row.setAttribute('hidden', 'hidden');
@@ -54,7 +54,7 @@ export default function () {
 
     return {
         ...require('../package.json'),
-        title: __('package.title'),
-        description: __('package.description')
+        title: t('package.title'),
+        description: t('package.description')
     };
 }
