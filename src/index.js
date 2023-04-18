@@ -5,10 +5,10 @@ import __ from './i18n';
 export default function () {
 
     function fixCourseTable(el) {
-        let rows = Array.from(el.querySelectorAll('tbody > tr'));
-        let cells = Array.from(el.querySelectorAll('td.course-list-term-column'));
-        let terms = cells.map(el => el.innerText.trim()).filter((value, index, self) => (self.indexOf(value) === index));
-        let tabs = document.createElement('div');
+        const rows = Array.from(el.querySelectorAll('tbody > tr'));
+        const cells = Array.from(el.querySelectorAll('td.course-list-term-column'));
+        const terms = cells.map(el => el.innerText.trim()).filter((value, index, self) => (self.indexOf(value) === index));
+        const tabs = document.createElement('div');
 
         tabs.classList.add('ui-tabs-minimal', 'ui-tabs', 'ui-widget', 'ui-widget-content', 'ui-corner-all');
         tabs.innerHTML = `
@@ -25,7 +25,7 @@ export default function () {
         `;
 
         tabs.addEventListener('click', e => {
-            let tab = e.target.closest('li');
+            const tab = e.target.closest('li');
 
             if (tab === null) return;
 
@@ -33,7 +33,7 @@ export default function () {
             tab.classList.add('ui-tabs-active', 'ui-state-active');
 
             rows.forEach(row => {
-                let cell = row.querySelector('td.course-list-term-column');
+                const cell = row.querySelector('td.course-list-term-column');
 
                 if (cell === null) return;
 
